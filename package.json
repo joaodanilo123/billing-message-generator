@@ -1,0 +1,9 @@
+{
+  "name": "billing-message-generator",
+  "version": "1.0.0",
+  "description": "Simple message generator that i created for personal use.",
+  "main": "src/index.html",
+  "repository": "https://github.com/joaodanilo123/billing-message-generator.git",
+  "author": "João Danilo Zucolotto Diedrich",
+  "license": "GPL v3"
+}
