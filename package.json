@@ -6,6 +6,9 @@
   "repository": "https://github.com/joaodanilo123/billing-message-generator.git",
   "author": "João Danilo Zucolotto Diedrich",
   "license": "GPL-3.0",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1"
