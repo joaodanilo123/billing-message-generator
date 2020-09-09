@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="#" id="frm">
+            <fieldset>
+                <label for="debtor">Devedor</label>
+                <input type="text" id="debtor">
+            </fieldset>
+            <fieldset>
+                <label for="bill">Conta</label>
+                <input type="text" id="bill">
+            </fieldset>
+            
+            <fieldset>
+                <button type="submit">GERAR</button>
+            </fieldset>
+            
+    
+        </form>
+    
+        <section id="result">
+            <span id="tooltiptext" class="tooltiptext">Copiado!</span>
+            <textarea type="text" id="text-result" readonly></textarea>
+            <button onclick="copyTextToClipboard()" id="copy">Copiar</button>
+        </section>    
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
